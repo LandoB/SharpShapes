@@ -1,0 +1,8 @@
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.dll
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.pdb
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Shapes.dll
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Shapes.pdb
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.csprojResolveAssemblyReference.cache
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.dll
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.pdb
