@@ -11,4 +11,3 @@ C:\Users\Rolando\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.
 C:\Users\Rolando\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.csproj.GenerateResource.Cache
 C:\Users\Rolando\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.exe
 C:\Users\Rolando\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.pdb
-C:\Users\Rolando\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.csprojResolveAssemblyReference.cache
