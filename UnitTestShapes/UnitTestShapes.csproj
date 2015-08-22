@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -45,18 +46,26 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="AbstractShapeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuadrilateralTests.cs" />
+    <Compile Include="RectangleTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Shapes\Shapes.csproj">
       <Project>{6cc071b1-5b72-417f-96c9-dd8d534f1b39}</Project>
       <Name>Shapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharpShapes\SharpShapes.csproj">
+      <Project>{1626113f-2dab-4dac-a57f-3a3647a492fa}</Project>
+      <Name>SharpShapes</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
