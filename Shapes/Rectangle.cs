@@ -10,7 +10,7 @@ namespace Shapes
     {
         public override float Area()
         {
-            return Side1 * Side2;
+            return Top * Bottom;
         }
 
         /*
@@ -23,10 +23,10 @@ namespace Shapes
         //Constructor
         public Rectangle(int height, int width)
         {
-            this.Side1 = height;
-            this.Side2 = width;
-            this.Side3 = height;
-            this.Side4 = width;
+            this.Right = height;
+            this.Top = width;
+            this.Left = height;
+            this.Bottom = width;
         }
     }
 }

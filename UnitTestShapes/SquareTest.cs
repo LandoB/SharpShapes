@@ -11,7 +11,7 @@ namespace UnitTestShapes
         public void TestConstructSetAllFourSides()
         {
             Square mySquare = new Square(4);
-            Assert.AreEqual(4,mySquare.Side1);
+            Assert.AreEqual(4,mySquare.Top);
         }
     }
 
