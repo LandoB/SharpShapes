@@ -12,7 +12,7 @@ namespace UnitTestShapes
         {
             var testRectangle = new Rectangle(4,6);
 
-            Assert.AreEqual(testRectangle.Area(), 24);
+            Assert.AreEqual(testRectangle.Area(), 36);
         }
 
         [TestMethod]

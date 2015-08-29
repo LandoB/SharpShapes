@@ -21,6 +21,13 @@ namespace Shapes
         public Color FillColor { get; protected set; }
         public Color BorderColor { get; protected set; }
 
+        // Comes from the ConcreteShape on ConcreteQuadrilateralTest
+        public Shape()
+        {
+            BorderColor = Color.NavajoWhite;
+            FillColor = Color.PapayaWhip;
+        }
+
         public virtual float Area() { throw new NotImplementedException(); }
         public virtual float Perimeter() { throw new NotImplementedException(); }
     }
