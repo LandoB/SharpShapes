@@ -20,6 +20,9 @@ namespace Shapes
         }
         */
 
+
+        // Refactor Rectangle to use Quad contructor
+
         //Constructor
         public Rectangle(int height, int width)
         {

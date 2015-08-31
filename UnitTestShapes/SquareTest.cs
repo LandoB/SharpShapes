@@ -13,6 +13,10 @@ namespace UnitTestShapes
             Square mySquare = new Square(4);
             Assert.AreEqual(4,mySquare.Top);
         }
+
+        // Need test to calculate AREA
+
+        // 
     }
 
 }
