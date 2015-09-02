@@ -8,28 +8,20 @@ namespace Shapes
 {
     public class Rectangle : Quadrilateral
     {
+        // Refactor Rectangle to use Quad constructor
+        // Constructors:
+        public Rectangle() : base() { }
+        public Rectangle(float top, float left) : base(top, left, top, left) { }
+        
+        // Methods:
         public override float Area()
         {
-            return Top * Bottom;
+                return Top * Bottom;
         }
 
-        /*
         public override float Perimeter()
         {
-            return (2 * (Side1 + Side2));
-        }
-        */
-
-
-        // Refactor Rectangle to use Quad contructor
-
-        //Constructor
-        public Rectangle(int height, int width)
-        {
-            this.Right = height;
-            this.Top = width;
-            this.Left = height;
-            this.Bottom = width;
+            return (this.Top * 2) + (this.Left * 2);
         }
     }
 }

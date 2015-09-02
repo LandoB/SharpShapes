@@ -12,7 +12,7 @@ namespace UnitTestShapes
         {
             var testRectangle = new Rectangle(4,6);
 
-            Assert.AreEqual(testRectangle.Area(), 36);
+            Assert.AreEqual(testRectangle.Area(), 24);
         }
 
         [TestMethod]
@@ -20,7 +20,7 @@ namespace UnitTestShapes
         {
             var testRectangle = new Rectangle(3,5);
 
-            Assert.AreEqual(testRectangle.Perimeter(), 16);
+            Assert.AreEqual(testRectangle.Perimeter(), 12);
         }
     }
 }
