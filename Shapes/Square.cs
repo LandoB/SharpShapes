@@ -11,7 +11,8 @@ namespace Shapes
         //Taking stuff from Rectangle
         public Square(int side_length) : base(side_length, side_length)
         {
-           
+
         }
+
     }
 }

@@ -16,7 +16,7 @@ namespace Shapes
         // Methods:
         public override float Area()
         {
-                return Top * Bottom;
+                return this.Top * this.Bottom;
         }
 
         public override float Perimeter()

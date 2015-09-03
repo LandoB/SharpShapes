@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-
+using System.Windows.Controls;
 
 namespace Shapes
 {
@@ -28,6 +28,8 @@ namespace Shapes
             FillColor = Color.PapayaWhip;
         }
 
+        public virtual void DrawOnto(Canvas theCanvas, int x, int y) { throw new NotFiniteNumberException(); }
+        public virtual void Scale(int percent) { throw new NotFiniteNumberException(); }
         public virtual float Area() { throw new NotImplementedException(); }
         public virtual float Perimeter() { throw new NotImplementedException(); }
     }

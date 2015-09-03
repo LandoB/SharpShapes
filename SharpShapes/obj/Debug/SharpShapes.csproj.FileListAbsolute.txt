@@ -24,3 +24,4 @@ C:\Users\bernalr\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\MainWindow.b
 C:\Users\bernalr\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.g.resources
 C:\Users\bernalr\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.Properties.Resources.resources
 C:\Users\bernalr\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.csproj.GenerateResource.Cache
+C:\Users\Rolando\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.csprojResolveAssemblyReference.cache
