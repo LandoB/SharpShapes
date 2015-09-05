@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Drawing;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace UnitTestShapes
 {
@@ -45,6 +47,25 @@ namespace UnitTestShapes
         {
             ConcreteShape cs = new ConcreteShape();
             cs.Perimeter();
+        }
+
+        [TestMethod]
+        public void FindShapesTest()
+        {
+            List<string> classes = new List<string> { "Square","Rectangle", "Shape" };
+            CollectionAssert.AreEqual(classes, Assembly.GetAssembly(typeof(Shapes.Shape)).GetTypes());
+        }
+
+        [TestMethod]
+        public void TestSquareIsASubclassOfRectangle()
+        {
+            Assert.IsTrue(typeof(Shapes.Square).IsSubclassOf(typeof(Shapes.Rectangle)));
+        }
+
+        [TestMethod]
+        public void TestSquareIsASubclassOfQuadrilateral()
+        {
+            Assert.IsTrue(typeof(Shapes.Square).IsSubclassOf(typeof(Shapes.Rectangle)));
         }
     }
 }

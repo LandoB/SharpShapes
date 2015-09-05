@@ -1,12 +1,3 @@
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.dll
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.pdb
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Shapes.dll
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Shapes.pdb
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.csprojResolveAssemblyReference.cache
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.dll
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.pdb
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\SharpShapes.exe
-C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\SharpShapes.pdb
 C:\Users\bernalr\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.dll
 C:\Users\bernalr\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.pdb
 C:\Users\bernalr\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Shapes.dll
@@ -16,3 +7,12 @@ C:\Users\bernalr\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\SharpShap
 C:\Users\bernalr\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.csprojResolveAssemblyReference.cache
 C:\Users\bernalr\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.dll
 C:\Users\bernalr\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.pdb
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.dll
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\UnitTestShapes.pdb
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Shapes.dll
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\SharpShapes.exe
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\Shapes.pdb
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\bin\Debug\SharpShapes.pdb
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.csprojResolveAssemblyReference.cache
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.dll
+C:\Users\Rolando\Documents\GitHub\SharpShapes\UnitTestShapes\obj\Debug\UnitTestShapes.pdb
