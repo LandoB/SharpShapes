@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Drawing;
+using System.Windows.Media;
 using System.Collections.Generic;
 using System.Reflection;
 
@@ -13,8 +13,8 @@ namespace UnitTestShapes
         {
             public ConcreteShape()
             {
-                BorderColor = Color.NavajoWhite;
-                FillColor = Color.PapayaWhip;
+                BorderColor = Colors.NavajoWhite;
+                FillColor = Colors.PapayaWhip;
             }
 
         }
@@ -23,14 +23,14 @@ namespace UnitTestShapes
         public void TestAbstractShapeHasBoderColor()
         {
             ConcreteShape cs = new ConcreteShape();
-            Assert.AreEqual(Color.NavajoWhite, cs.BorderColor);
+            Assert.AreEqual(Colors.NavajoWhite, cs.BorderColor);
         }
 
         [TestMethod]
         public void TestAbstractShapeHasFillColor()
         {
             ConcreteShape cs = new ConcreteShape();
-            Assert.AreEqual(Color.PapayaWhip, cs.FillColor);
+            Assert.AreEqual(Colors.PapayaWhip, cs.FillColor);
         }
 
         [TestMethod]

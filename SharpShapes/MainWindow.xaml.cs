@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; // Stuff like List
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,14 +35,29 @@ namespace SharpShapes
             //stuff.Add("Rectangle");
             var quadType = typeof(Quadrilateral);
 
-            //combo1.ItemsSource = stuff;
+            //combo1.ItemsSource = stuff; // combo1 came from <ComboBox x:Name="combo1" ...
             //combo1.ItemsSource = Assembly.GetAssembly(typeof(Shapes.Shape)).GetTypes();
             combo1.ItemsSource = Assembly.GetAssembly(typeof(Shapes.Shape)).GetTypes().Where(shapeType => shapeType.IsSubclassOf(typeof(Quadrilateral)));
+        }
+
+        public int NumberOfArguments(string className)
+        {
+            var theClass = Assembly.GetAssembly(typeof(Shapes.Shape)).GetTypes().Where(shapeType => shapeType.Name == className).First(); // This is a Collection. Get the First
+            var theClassConstructor = theClass.GetConstructors().First();
+            return theClassConstructor.GetParameters().Length;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Button Clicked!");
+        }
+
+        private void combo1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var classType = combo1.SelectedValue as Type;
+            shapeWidth.IsEnabled = true;
+            int argCount = NumberOfArguments(classType.Name);
+            shapeHeight.IsEnabled = (argCount > 1);
         }
     }
 }

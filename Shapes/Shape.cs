@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Drawing;
+using System.Windows.Media;
 using System.Windows.Controls;
+
 
 namespace Shapes
 {
@@ -21,15 +22,15 @@ namespace Shapes
         public Color FillColor { get; protected set; }
         public Color BorderColor { get; protected set; }
 
-        // Comes from the ConcreteShape on ConcreteQuadrilateralTest
+        // Comes from the ConcreteShape class in ShapeTest.
         public Shape()
         {
-            BorderColor = Color.NavajoWhite;
-            FillColor = Color.PapayaWhip;
+            BorderColor = Colors.NavajoWhite;
+            FillColor = Colors.PapayaWhip;
         }
 
-        public virtual void DrawOnto(Canvas theCanvas, int x, int y) { throw new NotFiniteNumberException(); }
-        public virtual void Scale(int percent) { throw new NotFiniteNumberException(); }
+        public virtual void DrawOnto(Canvas theCanvas, int x, int y) { throw new NotImplementedException(); }
+        public virtual void Scale(int percent) { throw new NotImplementedException(); }
         public virtual float Area() { throw new NotImplementedException(); }
         public virtual float Perimeter() { throw new NotImplementedException(); }
     }
